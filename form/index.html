@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Uma página de um dino feliz">
+
+    <link rel="shortcut icon" href="../dinosaur.ico" />
+    <title>Dino</title>
+</head>
+
+<body>
+    <form onsubmit="alert('Informações enviadas')">
+        <label for="name">Digite seu dinonome:</label><br/>
+        <input type="text" id="name" placeholder="Dino da Silva"><br/>
+        <p>Selecione suas dinoalergias:</p>
+        <input type="checkbox" id="alergie1">
+        <label for="alergie1">Banana</label><br/>
+        <input type="checkbox" id="alergie2">
+        <label for="alergie2">Maça</label><br/>
+        <input type="checkbox" id="alergie3">
+        <label for="alergie3">Kiwii</label><br/>
+        <p>Qual sua dinodieta:</p>
+        <input type="radio" name="diet" id="diet_vegatable" value="">
+        <label for="diet_vegatable">Herbívoro</label><br/>
+        <input type="radio" name="diet" id="diet_meat" value="">
+        <label for="diet_meat">Carnívoro</label><br/>
+        <input type="radio" name="diet" id="diet_all" value="">
+        <label for="diet_all">Onívoro</label><br/>
+        <label for="dino_fofura">Defina sua dinofofura:</label><br/>
+        <input type="range" id="dino_fofura"><br/>
+        <label for="dino_text">Digite sua dino mensagem:</label><br/>
+        <textarea maxlength="2000" id="dino_text" rows="4" cols="50"></textarea><br/>
+        <button type="submit">
+            <strong>Botão de envio</strong>
+        </button><br/><br/>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
